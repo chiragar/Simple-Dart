@@ -19,3 +19,25 @@ Welcome to the **Simple Dart Example** repository! This collection of examples i
 13. **Default Parameters in Dart**
 14. **Class and Object in Dart**
 15. **Constructors in Dart**
+16. **Getter and Setter Functions in Dart**
+17. **Short Hand Syntax in Dart**
+18. **Inheritance in Dart**
+
+
+**
+Inheritance in Dart
+
+- Hierarchial Inheritance
+Mobile Phone extends Electronics - call(), games() 
+Television extends Electronics - 
+Electronics - height, width, thickness, aspectRatio, watch()
+
+- Single Inheritance
+Mobile Phone extends Electronics - call(), games() 
+Electronics - height, width, thickness, aspectRatio, watch()
+
+- Multilevel Inheritance
+Television extends Mobile Phone
+Mobile Phone extends Electronics - call(), games()
+Electronics - height, width, thickness, aspectRatio, watch()
+**
