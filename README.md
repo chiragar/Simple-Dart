@@ -10,8 +10,7 @@ Welcome to the **Simple Dart Example** repository! This collection of examples i
 5. **Ternary Conditions in Dart**
 6. **For Loop in Dart**
 7. **While Loop in Dart**
-8. **Switch Case**
-8.2 **Switch Case_2**
+8. **Switch Case**,**Switch Case_2**
 9. **Break and Continue Statement in Dart**
 10. **Functions in Dart**
 11. **Positional Parameters in Dart**
@@ -24,8 +23,8 @@ Welcome to the **Simple Dart Example** repository! This collection of examples i
 18. **Inheritance in Dart**
 
 
-**
-Inheritance in Dart
+**Inheritance in Dart**
+
 
 - Hierarchial Inheritance
 Mobile Phone extends Electronics - call(), games() 
