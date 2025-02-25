@@ -1,0 +1,48 @@
+// Base class (Parent)
+class Animal {
+  void eat() {
+    print("Animal is eating.\n");
+  }
+}
+
+// Subclass using 'extends' (inherits properties & methods)
+class Dog extends Animal {
+  void bark() {
+    print("Extends:Dog is barking.\n");
+  }
+}
+
+// Interface using 'implements' (must override everything)
+class Robot implements Animal {
+  @override
+  void eat() {
+    print("implements: Robot is charging (eating electricity).");
+  }
+
+  void work() {
+    print("implements: Robot is working.");
+  }
+}
+
+void main() {
+  // Using 'extends' - Dog inherits Animal's method
+  Dog dog = Dog();
+  dog.eat();  // Inherited method
+  dog.bark(); // Own method
+
+  // Using 'implements' - Robot must override everything
+  Robot robot = Robot();
+  robot.eat();  // Overridden method
+  robot.work(); // Own method
+}
+
+/*
+Output:
+
+Animal is eating.
+
+Extends:Dog is barking.
+
+implements: Robot is charging (eating electricity).
+implements: Robot is working.
+*/
